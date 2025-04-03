@@ -1,25 +1,20 @@
-# Project Title
+# Time Series with Pandas
 
 ## Overview
-Brief description of your project, including its main purpose and key features. (2-3 sentences)
+This repo explains all pandas functionalities for dealing with time
 
 ## Problem Statement
-- Describe the optimization/ML problem being solved
-- Key objectives
-- Constraints (if applicable)
+- How to set index of a dataframe to be datetime?
+- How to slice data based on dates?
+- How to plot time series data?
 
-## Methods/Architecture
-- List of algorithms/methods used (e.g., MILP, Genetic Algorithm, CNN, etc.)
-- Model architecture (for DL projects)
-- Optimization formulation (for exact methods)
-- Key parameters and hyperparameters
 
 ## Requirements
 ```bash
-numpy==1.21.0
-pytorch==1.9.0
-scikit-learn==0.24.2
-# Add other dependencies
+numpy
+pandas
+matplotlib
+ipykernel
 ```
 ## Project Structure
 
@@ -27,13 +22,7 @@ scikit-learn==0.24.2
 ├── data/              # Dataset files
 │   ├── processed/     # Cleaned and processed data
 │   └── raw/          # Original data
-├── models/            # Trained models
 ├── notebooks/         # Jupyter notebooks
-├── references/        # Papers, documentation, etc.
-├── src/              # Source code
-│   ├── data.py       # Data processing functions
-│   ├── models.py     # Model implementations
-│   └── utils.py      # Utility functions
 ├── .gitignore        # Git ignore file
 ├── README.md         # Project documentation
 └── requirements.txt  # Dependencies
@@ -41,20 +30,17 @@ scikit-learn==0.24.2
 
 ## Setup and Installation
 ```bash
-git clone https://github.com/username/project-name.git
-cd project-name
+git clone https://github.com/oalotaik/time-series-with-pandas.git
+cd time-series-with-pandas
 pip install -r requirements.txt
 ```
 
-## Results
-
-Summarize the main results
 
 ## Citation
 If this project was useful for your research, please cite:
 ```bash
 @article{Alotaik2025project,
-  title={Project Title},
+  title={time-series-with-pandas},
   author={Alotaik, O.},
   year={2025}
 }
